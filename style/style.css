@@ -23,3 +23,48 @@ nav{
     text-decoration: none;
 
 }
+main{
+
+}
+.agency-info{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../asset//image/background.jpg "), linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5));
+    background-blend-mode: overlay;
+    
+}
+.agency-info-mid{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 40%;
+}
+.agency-para{
+    text-align: center;
+}
+.button-discover{
+    background-color: red;
+    color: antiquewhite;
+    padding: 15px;
+    border-radius: 5px;
+}
+.button-hire{
+    padding: 15px;
+    border-radius: 5px;
+}
+#digital{
+    color: rgb(232, 13, 13);
+}
+.title{
+   margin-bottom: 2px;
+    font-size: 74px;
+    color: antiquewhite;
+}
+.description{
+    margin-top: 5px;
+    font-size: 24px;
+    color: antiquewhite;
+}
+
