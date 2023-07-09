@@ -24,8 +24,9 @@ nav{
 
 }
 main{
-
+    width: 100vw;
 }
+/* section banner start */
 .agency-info{
     display: flex;
     align-items: center;
@@ -33,6 +34,7 @@ main{
     width: 100vw;
     background-image: url("../asset//image/background.jpg "), linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5));
     background-blend-mode: overlay;
+    background-size: cover;
     
 }
 .agency-info-mid{
@@ -48,11 +50,11 @@ main{
     background-color: red;
     color: antiquewhite;
     padding: 15px;
-    border-radius: 5px;
+    border-radius: 5px solli;
 }
 .button-hire{
     padding: 15px;
-    border-radius: 5px;
+    border-radius: 5px solli;
 }
 #digital{
     color: rgb(232, 13, 13);
@@ -63,8 +65,107 @@ main{
     color: antiquewhite;
 }
 .description{
-    margin-top: 5px;
+    margin-top: 5px solli;
     font-size: 24px;
     color: antiquewhite;
 }
+/* section services start */
+.services{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    background-image: url("../asset/image/footer-bg.png"), linear-gradient(rgb(76, 72, 72), rgba(42, 41, 41, 0.9));
+    background-blend-mode: overlay;
+ 
 
+}
+.left-site{
+    display: block;
+    color: antiquewhite;
+    margin: 30px;
+    align-items: center;
+}
+.owner{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.owner-details{
+    text-align: center;
+    border-right: 1px solid rgb(245, 44, 44);
+}
+#name{
+margin: 1px;
+
+}
+#position{
+ margin-top:0;
+}
+
+.btn-owner{
+    background-color: aqua;
+    color: rgb(9, 9, 9);
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 70px;
+}
+.right-site{
+    display: flex;
+    margin: 30px;
+    color: aliceblue;
+}
+.services-type-1{
+    display: block;
+    border: 5px solid green;
+    text-align: center;
+    color: aliceblue;
+}
+.services-type-2{
+    display:block;
+    border: 5px solid green;
+    text-align: center;
+    color: aliceblue;
+}
+.icon-size{
+   background-color: white;
+    width: 200px;
+    padding: 20px;
+    border-radius: 3px;
+}
+.services-box{
+    width: 300px;
+    height:300px;
+
+}
+/* start apointment section */
+.apointment{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 70%;
+    background-color: rgb(140, 42, 42);
+    margin: 0 auto;
+    height: 150px;
+    border-radius: 10px;
+    margin-top: -30px;
+    color: bisque;
+}
+.cell{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.cell-logo{
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+}
+.cell-btn{
+    background-color: rgb(43, 89, 226);
+    color: antiquewhite;
+    padding: 7px;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
