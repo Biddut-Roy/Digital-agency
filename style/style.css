@@ -195,13 +195,14 @@ margin:0;
 }
 .news{
     display: flex;
+    justify-content: space-around;
     
 }
 .news-poster-1{
     display: block;
     padding: 15px;
     height: 62vh;
-    width: 30vw;
+    width: 20vw;
     margin: 15px;
     border: 2px solid rgb(145, 126, 126);
     border-radius: 5px;
@@ -214,7 +215,9 @@ margin:0;
    
 }
 .news-img{
-    max-width: 25vw;
+    max-width: 18vw;
+    border-radius: 10px;
+    margin-top: 3px;
 }
 /* start a footer section work */
 footer{
