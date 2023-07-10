@@ -1,5 +1,8 @@
-
+body{
+    98%
+}
 nav{
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -26,12 +29,12 @@ nav{
 main{
     width: 100vw;
 }
-/* section banner start */
+/* section main banner start */
 .agency-info{
     display: flex;
     align-items: center;
     height: 100vh;
-    width: 100vw;
+    width: 98%;
     background-image: url("../asset//image/background.jpg "), linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5));
     background-blend-mode: overlay;
     background-size: cover;
@@ -76,6 +79,7 @@ main{
     margin-top: 10px;
     background-image: url("../asset/image/footer-bg.png"), linear-gradient(rgb(76, 72, 72), rgba(42, 41, 41, 0.9));
     background-blend-mode: overlay;
+    width: 98%;
  
 
 }
@@ -91,11 +95,18 @@ main{
     align-items: center;
 }
 .owner-details{
+    display: flex;
+    align-items: center;
     text-align: center;
     border-right: 1px solid rgb(245, 44, 44);
 }
+.author-n-p{
+    display: block;
+    margin: 1px;
+    padding-right: 10px;
+}
 #name{
-margin: 1px;
+margin:0;
 
 }
 #position{
@@ -144,7 +155,7 @@ margin: 1px;
     text-align: center;
     align-items: center;
     width: 70%;
-    background-color: rgb(140, 42, 42);
+    background-color: rgb(241, 48, 48);
     margin: 0 auto;
     height: 150px;
     border-radius: 10px;
@@ -160,6 +171,7 @@ margin: 1px;
     background-color: aqua;
     width: 50px;
     height: 50px;
+    border-radius: 40px;
 }
 .cell-btn{
     background-color: rgb(43, 89, 226);
@@ -168,4 +180,103 @@ margin: 1px;
     border-radius: 5px;
     margin: 10px;
     cursor: pointer;
+}
+.blog-news-area{
+    display: block;
+    text-align: center;
+}
+.blog{
+    width: 60%;
+    margin: 30px auto;
+
+}
+.blog-color{
+    color: red;
+}
+.news{
+    display: flex;
+    
+}
+.news-poster-1{
+    display: block;
+    padding: 15px;
+    height: 62vh;
+    width: 30vw;
+    margin: 15px;
+    border: 2px solid rgb(145, 126, 126);
+    border-radius: 5px;
+    
+}
+.news-box{
+    border: 10px solid rgb(191, 173, 173);
+    border-radius: 15px;
+    box-shadow:  5px 5px rgb(73, 61, 61);
+   
+}
+.news-img{
+    max-width: 25vw;
+}
+/* start a footer section work */
+footer{
+    display: block;
+
+    
+}
+.footer-info{
+    display: flex;
+    align-items: center;
+    background-image: url("../asset/image/footer-bg.png"),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.5));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    color: rgb(244, 248, 236);
+    padding-bottom: 30px;
+    border-bottom: 2px solid red;
+    justify-content: space-around;
+
+}
+.footer-size{
+    margin-top: 100px;
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-agency{
+    display: block;
+    padding: 0;
+    width: 25vw;
+    padding-right: 50px;
+
+}
+.footer-support{
+    padding-left: 60px;
+}
+.footer-support >a{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 25vw;
+    text-decoration: none;
+    color: rgb(244,248,236);
+}
+.footer-link > a{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 25vw;
+    text-decoration: none;
+    color: rgb(244,248,236);
+}
+.footer-contact{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 25vw;
+
+}
+
+.agency-copy{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 2px auto;
 }
